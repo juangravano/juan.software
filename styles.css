@@ -19,7 +19,7 @@ html {
 }
 
 .social{
-    padding-top: 250px;
+    padding-top: 50;
     display: flex;
     justify-content: center;
 }
@@ -69,7 +69,6 @@ h3{
     font-size: 50px;
     margin-top: 0;
 }
-
 
 
 button {
