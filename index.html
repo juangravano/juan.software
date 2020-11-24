@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Gravano</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="blur" id="blur">
+    <header>
+          <button class="big-button">Trabajemos juntos</button>
+      </header>
+      <div class="data">  
+        <h1>Juan Gravano</h1>
+        <h3>Software developer.</h3>
+          <button id="abrirPopup" class="big-button">Conoceme más</button>
+      </div>
+      <div class="social">
+        <a class="email" href="https://gmail.com/juangravano" class="social-link gmail"> <img src="email.svg"/> </a>
+
+        <a class="whatsapp" href="http://wa.me/541137847511" class="social-link telegram"> <img src="whatsapp.svg"/> </a>
+
+        <a class="github" href="https://github.com/juangravano" class="social-link github"> <img src="github (1).svg"/></a>
+
+        <a class="linkedin" href="https://linkedin.com/juangravano" class="social-link linkedin"> <img src="linkedin.svg"/></a>
+      </div>
+      <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+          <h4>Sobre mi</h3>
+            <p>Me gusta lo simple, que me llame drogada si sale los findes me gusta lo simple. Dijo el duketo con el aleman dijo</p>
+            <a href="#" id="boton-cerrar" class="boton-cerrar"> <img src = "eliminar.svg"</a>
+        </div>  
+      </div>
+      <script src="popup.js"></script>
+</body>
+</html>
