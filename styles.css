@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MADE TOMMY';
-    src: url("fonts/MADE TOMMY Black_PERSONAL USE.otf")
+    src: url("fonts/MADE TOMMY Black_PERSONAL USE.otf"); 
 }
 html {
     font-family: 'MADE TOMMY';
@@ -14,6 +14,7 @@ html {
 }
 
 .container {
+    size: 80%;
     border-radius: 20px;
     background: linear-gradient(to right, rgba(124,244,206,1) 0%, rgba(38,227,167,1) 100%);
     margin: 10%;
@@ -130,7 +131,7 @@ button.big-button:active::before {
 }
 
 .overlay {
-	position: fixed;
+	position: inherit;
 	top: 0;
 	bottom: 0;
 	left: 0;
