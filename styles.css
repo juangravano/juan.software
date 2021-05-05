@@ -73,15 +73,21 @@ header {
 
 h1{
     padding: 0px;
-    color: #F04085;
-    font-size: 80px;
+    color:#fff;
+    background-image: linear-gradient(to right,rgba(124,244,206,1) 0%, rgba(38,227,167,1) 50%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    font-size: 60px;
     margin-bottom: 0;
 }
 
 h3{
     padding: 0px;
-    color: #ff80ab;
-    font-size: 50px;
+    color:#fff;
+    background-image: linear-gradient(to right,rgba(124,244,206,1) 0%, rgba(38,227,167,1) 100%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    font-size: 30px;
     margin-top: 0;
 }
 
@@ -117,7 +123,7 @@ button.big-button::before {
     bottom: 0;
     border: 0;
     border-radius: inherit;
-    box-shadow: 20px -5px #ff80ab  ;
+    box-shadow: 20px -5px #39443F  ;
     transition: all 125ms cubic-bezier(0, 0, 1, 1);
 }
 
