@@ -60,16 +60,15 @@ header {
     margin-right: 95px;
     margin-top: 40px;
 }
-
 h1{
+    
     padding-left: 5%;
     display:flex !important;
     text-align: flex-end !important;
     color:#fff;
-    font-size: 60px;
 }
-
 h3{
+    font-size: 30px;
     padding-left: 5%;
     display:flex !important;
     text-align: flex-end !important;
@@ -77,9 +76,39 @@ h3{
     background-image: linear-gradient(to right,rgba(124,244,206,1) 0%, rgba(38,227,167,1) 100%);
     -webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-    font-size: 30px;
     font-family: monospace;
 }
+h1.name {
+    font-size: 60px;
+    }
+
+    @media screen and (min-width: 601px) {
+        h1.name {
+        font-size: 60px;
+    }
+    }
+
+    @media screen and (max-width: 600px) {
+    h1.name {
+        font-size: 40px;
+    }
+
+h3.dev {
+    font-size: 30px;
+}
+
+    @media screen and (min-width: 601px) {
+        h3.dev {
+        font-size: 30px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        h3.dev {
+        font-size: 15px;
+        }
+    }   
+
 
 .overlay {
 	position: inherit;
