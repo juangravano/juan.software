@@ -70,9 +70,6 @@ header {
 h1{
     padding: 0px;
     color:#fff;
-    background-color: rgba(38,227,167,1);
-    
-	-webkit-background-clip: text;
     font-size: 60px;
     margin-bottom: 0;
 }
