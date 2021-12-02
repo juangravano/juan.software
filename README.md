@@ -1,4 +1,2 @@
 # juan.software
-website juan.software
-
-:rocket:
+website juan.software :rocket:
