@@ -3,12 +3,6 @@ html {
     font-family: 'monospace';
 }
 
-
-.data {
-    margin-left: 105px;
-
-}
-
 .container {
     size: 80%;
     border-radius: 20px;
@@ -68,21 +62,23 @@ header {
 }
 
 h1{
+    padding-left: 5%;
     display:flex !important;
-    text-align: flex-start !important;
+    text-align: flex-end !important;
     color:#fff;
     font-size: 60px;
 }
 
 h3{
-    padding: 0px;
-    padding-right: 10px;
+    padding-left: 5%;
+    display:flex !important;
+    text-align: flex-end !important;
     color:#fff;
     background-image: linear-gradient(to right,rgba(124,244,206,1) 0%, rgba(38,227,167,1) 100%);
     -webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
     font-size: 30px;
-    margin-top: 0;
+    font-family: monospace;
 }
 
 .overlay {
@@ -100,4 +96,3 @@ h3{
 .overlay.active {
     visibility: visible;
 }
-
