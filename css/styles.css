@@ -73,8 +73,8 @@ h3{
     display:flex !important;
     text-align: flex-end !important;
     color:#fff;
-    background-image:     linear-gradient(to right,rgb(1, 156, 107), rgba(38,227,167,1), rgb(255, 255, 255), rgb(5, 221, 153),rgb(5, 221, 153),rgb(5, 221, 153),rgb(5, 221, 153),);
-    -webkit-text-fill-color: transparent;rgb(5, 221, 153),
+    background-image: linear-gradient(to right,rgba(38,227,167,1) 100%, rgb(255, 255, 255) 20%);
+    -webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
     font-family: monospace;
 }
