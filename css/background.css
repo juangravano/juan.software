@@ -1,8 +1,3 @@
-html {
-    height: 100%;
-}
-
-
 @keyframes slide {
     0% {
         ransform: translateX(-25%);
@@ -61,15 +56,16 @@ html {
     }
 }
 
-
 html {
-    background: radial-gradient(rgb(73, 4, 105), rgb(0, 0, 0));
+    background: radial-gradient(rgb(26, 4, 105), rgb(0, 0, 0));
 }
 
 .bubble {
     height: 16vh;
     border-radius: 40%;
-    background: radial-gradient(rgb(182, 23, 255), rgb(18, 7, 117));
+
+    background: radial-gradient(rgb(84, 255, 155), rgb(18, 7, 117));
+
     position: absolute;
     filter: blur(4vh);
     animation: updown linear 37s infinite,
@@ -111,4 +107,5 @@ html {
         leftright ease-in-out 29s infinite,
         vastag linear 19s infinite,
         forog linear 37s infinite;
+
 }
