@@ -1,67 +1,87 @@
  body {
   font-family: 'Encode Sans', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
  }
 
- .card{
-  height: 100vh;       
+.card{
+  display: table;
+  height: 220px;  
+  margin: 100px auto;
+  text-align: center;
+  width: 300px;     
 }
 .data{
-  position: absolute;
-  top:50%;
-  left: 50%;           
-  margin-top: -100px;
-  margin-left: -100px;
+  display: table-cell;
+  margin: 0;
+  padding: 01rem;        
+  vertical-align: middle;
+
 }
 
- .github {
-   padding: 0px 15px 15px 0px;
- }
+h1 {
+  text-align: justify;
+  font-size: 9vw;
+}
 
- .linkedin {
-   padding: 0px 15px 15px 0px;
- }
+h3 {
+  font-size: 3.0vh;
+}
 
- .whatsapp {
-   padding: 0px 15px 15px 0px;
- }
+a:link, a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 1.8vmin;
+}
 
- .email {
-   padding: 0px 15px 15px 0px;
- }
+a:hover {
+  color: #b3ff00
+}
+ .glitch {
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+    0.025em 0.04em 0 #fffc00;
+  animation: glitch 725ms infinite;
+}
 
 
- .github:hover {
-   opacity: 80%;
-   transform: translate(0em, 0.45em);
-   transition: all 175ms cubic-bezier(0, 0, 1, 1);
- }
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+      0.025em 0.04em 0 #fffc00;
+  }
+  15% {
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+      0.025em 0.04em 0 #fffc00;
+  }
+  16% {
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+      -0.05em -0.05em 0 #fffc00;
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+      -0.05em -0.05em 0 #fffc00;
+  }
+  50% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+      0 -0.04em 0 #fffc00;
+  }
+  99% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+      0 -0.04em 0 #fffc00;
+  }
+  100% {
+    text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+      -0.04em -0.025em 0 #fffc00;
+  }
+}
 
- .whatsapp:hover {
-   opacity: 80%;
-   transform: translate(0em, 0.45em);
-   transition: all 175ms cubic-bezier(0, 0, 1, 1);
- }
-
- .email:hover {
-   opacity: 80%;
-   transform: translate(0em, 0.45em);
-   transition: all 175ms cubic-bezier(0, 0, 1, 1);
- }
-
- .linkedin:hover {
-   opacity: 80%;
-   transform: translate(0em, 0.45em);
-   transition: all 175ms cubic-bezier(0, 0, 1, 1);
- }
-
- .name {
-   color: white;
- }
-
- .description {
-   background: linear-gradient(to right, #30CFD0, #c43ad6);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   text-shadow: 0 0 80px rgb(192 219 255 / 35%), 0 0 32px rgb(65 120 255 / 24%);
- }
+.social {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 20px #fff, 0 0 30px #4db8ff, 0 0 40px #4dffb5, 0 0 50px #4dff88, 0 0 60px #4d6eff, 0 0 70px #4dffd3, 0 0 80px #ff4da6;
+}
 
