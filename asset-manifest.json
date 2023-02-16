@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/juan.software/static/css/main.fb12d0b4.css",
+    "main.js": "/juan.software/static/js/main.91bbccce.js",
+    "static/js/787.1ed0c42c.chunk.js": "/juan.software/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/juan.software/index.html",
+    "main.fb12d0b4.css.map": "/juan.software/static/css/main.fb12d0b4.css.map",
+    "main.91bbccce.js.map": "/juan.software/static/js/main.91bbccce.js.map",
+    "787.1ed0c42c.chunk.js.map": "/juan.software/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb12d0b4.css",
+    "static/js/main.91bbccce.js"
+  ]
+}
