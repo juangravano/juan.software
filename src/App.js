@@ -18,7 +18,7 @@ function Card() {
         <h1>Juan Gravano</h1>
         <p>Software Developer</p>
         <div className="icons">
-          <a href="https://github.com/juangravano" target="_blank">
+          <a href="https://github.com/jgravano" target="_blank">
             <GithubFilled
               className={`icon ${iconHovered === 1 ? 'active' : ''}`}
               onMouseEnter={() => handleIconHover(1)}
