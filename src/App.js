@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import { GithubFilled, LinkedinFilled } from '@ant-design/icons';
 
@@ -42,6 +42,10 @@ function Card() {
 
 function App() {
   const [columnHovered, setColumnHovered] = useState(null);
+
+  useEffect(() => {
+    alert('full experience coming soon! 👽');
+  }, []);
 
   const handleColumnHover = (columnIndex) => {
     setColumnHovered(columnIndex);
